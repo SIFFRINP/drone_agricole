@@ -36,9 +36,8 @@
         footer {
             bottom: 0;
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
             align-items: center;
-            gap: 20px;
         }
         .container {
             flex: 1;
@@ -48,8 +47,10 @@
             padding: 100px 20px 80px; /* Adjusted to avoid content hiding behind the fixed headers and footers */
         }
         .map-container {
-            max-width: 800px;
-            max-height: 600px;
+            max-width: 1000px;
+            max-height: 700px;
+            width: 100%;
+            height: 100%;
         }
         .map-container img {
             width: 100%;
@@ -61,8 +62,8 @@
             cursor: pointer;
         }
         .button-container img {
-            width: 50px;
-            height: 50px;
+            width: 70px; /* Increased size of the buttons */
+            height: 70px; /* Increased size of the buttons */
             border-radius: 50%;
         }
     </style>
